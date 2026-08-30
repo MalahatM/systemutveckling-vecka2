@@ -17,3 +17,14 @@ Ett verkligt scenario kan vara att jag ska lägga till ett inloggningsformulär.
 Commits är viktiga eftersom Git sparar projektets historik. Man kan se vad som ändrades, vem som gjorde ändringen och när den gjordes. 
 
 I ett gemensamt projekt kan man också se vilka ändringar varje person har gjort. Om ett problem uppstår kan teamet kontrollera tidigare commits och jämföra olika versioner. Då blir det lättare att förstå vilken ändring som orsakade problemet och om den behöver rättas. 
+
+3. I min tidigare utbildning arbetade jag mycket med Git och GitHub. 
+
+Git hanterar projektets historik lokalt på datorn. GitHub är däremot en plattform på internet där man kan lagra projekt och samarbeta med andra utvecklare. 
+
+I grupprojekt är det viktigt att använda branches utifrån varje persons ansvarsområde. Om min uppgift till exempel är att skapa kontaktsidan, kan jag skapa en branch som heter contact-page och skriva min kod där. 
+En branch är en separat gren av projektet. En utvecklare kan arbeta och göra ändringar i sin branch utan att påverka eller förstöra huvudversionen, som vanligtvis finns i main. 
+
+En pull request, som ofta kallas PR, är en begäran om att lägga till ändringarna från en branch till huvudbranchen. Innan ändringarna läggs till kan de andra medlemmarna i teamet granska koden, skriva kommentarer och be om rättningar. Detta hjälper teamet att upptäcka problem innan koden blir en del av huvudversionen. 
+
+Merge betyder att ändringarna från en branch slås ihop med en annan branch, vanligtvis main. För att minska risken för buggar, fel och konflikter bör man först testa och granska ändringarna. Sedan kan man göra en merge när uppgiften i branchen är klar. Det är bättre att göra detta regelbundet efter varje färdig uppgift än att vänta till slutet av hela projektet. 
